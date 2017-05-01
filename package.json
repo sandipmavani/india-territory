@@ -1,0 +1,30 @@
+{
+  "name": "india-territories",
+  "version": "1.0.0",
+  "description": "Territories of India",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandipmavani/india-territory.git"
+  },
+  "keywords": [
+    "india",
+    "territories",
+    "city",
+    "pincode"
+  ],
+  "author": "Sandip Mavani <mavanisandip94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kristories/indonesia/issues"
+  },
+  "homepage": "https://github.com/Kristories/indonesia#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "camo": "^0.12.2",
+    "nedb": "^1.8.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
