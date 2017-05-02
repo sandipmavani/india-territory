@@ -5,12 +5,10 @@ var connect       = require('camo').connect;
 var dataPath      = __dirname + '/data';
 var uriConnection = 'nedb://' + dataPath;
 
-
 var Territory     = require('./models/Territory');
 
 var _             = require('underscore');
 var async         = require('async');
-
 
 exports.searchFromPINCode = (pincode, callback) => {
     connect(uriConnection).then(function(db) {

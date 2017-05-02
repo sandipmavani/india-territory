@@ -18,7 +18,7 @@ class Territory extends Document {
     }
 
     static collectionName() {
-        return 'territory';
+        return 'test';
     }
 }
 
