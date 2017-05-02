@@ -31,4 +31,25 @@ exports.searchFromPINCode = (pincode, callback) => {
 });
 };
 
+exports.searchFromCity = (city, callback) => {
+    connect(uriConnection).then(function(db) {
+        database  = db;
+        var res   = [];
+        var query = {
+            city : new RegExp(city, 'i')
+        };
+
+        Territory.find(query, { populate : false }).then(function(p) {
+            async.eachOf(p, function(value, key, cb) {
+                res.push(_.pick(value, 'pincode','area','district', 'city','state','country'));
+                cb();
+            }, function(err) {
+                callback(_.sortBy(res, 'city'));
+            });
+        });
+    }).catch(err => {
+        callback(err);
+});
+};
+
 

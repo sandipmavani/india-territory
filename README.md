@@ -25,3 +25,11 @@ indiaTerritores.searchFromPINCode('######', function(res){
   console.log(res);
 });
 
+
+
+
+// Search city or regency
+indiaTerritores.searchFromCity('City Name', function(res){
+  console.log(res);
+});
+
