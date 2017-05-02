@@ -20,7 +20,7 @@ $ npm install --save india-territories
 var indiaTerritores = require('india-territories');
 
 
-// Search city or regency
+// get area detail from pin code
 indiaTerritores.searchFromPINCode('######', function(res){
   console.log(res);
 });
@@ -28,7 +28,7 @@ indiaTerritores.searchFromPINCode('######', function(res){
 
 
 
-// Search city or regency
+// get city detail by name
 indiaTerritores.searchFromCity('City Name', function(res){
   console.log(res);
 });
