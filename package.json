@@ -1,6 +1,6 @@
 {
   "name": "india-territories",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Territories of India",
   "main": "index.js",
   "repository": {
@@ -16,9 +16,9 @@
   "author": "Sandip Mavani <mavanisandip94@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kristories/indonesia/issues"
+    "url": "https://github.com/sandipmavani/india-territory/issues"
   },
-  "homepage": "https://github.com/Kristories/indonesia#readme",
+  "homepage": "https://github.com/sandipmavani/india-territory#readme",
   "dependencies": {
     "async": "^2.0.1",
     "camo": "^0.12.2",
