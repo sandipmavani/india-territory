@@ -1,6 +1,6 @@
 {
   "name": "india-territories",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Territories of India",
   "main": "index.js",
   "repository": {
@@ -23,7 +23,8 @@
     "async": "^2.0.1",
     "camo": "^0.12.2",
     "nedb": "^1.8.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "mongodb": "^2.2.10"
   },
   "devDependencies": {},
   "scripts": {}
