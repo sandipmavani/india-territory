@@ -26,8 +26,6 @@ indiaTerritores.searchFromPINCode('######', function(res){
 });
 
 
-
-
 // get city detail by name
 indiaTerritores.searchFromCity('City Name', function(res){
   console.log(res);
