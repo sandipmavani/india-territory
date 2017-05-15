@@ -19,15 +19,17 @@ $ npm install --save india-territories
 ```js
 var indiaTerritores = require('india-territories');
 
-
 // get area detail from pin code
 indiaTerritores.searchFromPINCode('######', function(res){
   console.log(res);
 });
-
 
 // get city detail by name
 indiaTerritores.searchFromCity('City Name', function(res){
   console.log(res);
 });
 
+// get all city by state Name
+indiaTerritores.getStateData('State Name', function(res){
+  console.log(res);
+});
