@@ -33,3 +33,8 @@ indiaTerritores.searchFromCity('City Name', function(res){
 indiaTerritores.getStateData('State Name', function(res){
   console.log(res);
 });
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/sandipmavani/india-territory/badge.svg?style=beer-square)](https://beerpay.io/sandipmavani/india-territory)  [![Beerpay](https://beerpay.io/sandipmavani/india-territory/make-wish.svg?style=flat-square)](https://beerpay.io/sandipmavani/india-territory?focus=wish)
